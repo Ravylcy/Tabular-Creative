@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.slyrien.tabularcreative.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "tabularcreative.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MixinCreativeModeInventoryScreen",
+    "CreativeModeInventoryScreenAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
